@@ -92,7 +92,10 @@ public class Student {
 		return email;
 	}
 	
-	public void unEnroll(String course) {
+	public void unEnroll() {
+		System.out.println("Enter the course to unenroll");
+		Scanner sc = new Scanner(System.in);
+		String course = sc.nextLine();
 		this.listOfCourses.remove(course);
 		
 		System.out.println("You unenrolled from " + course);

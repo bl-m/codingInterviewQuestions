@@ -7,7 +7,7 @@ public class StudentApp {
 		Student s1 = new Student();
 		s1.enroll();
 		System.out.println("--------------------------");
-		s1.unEnroll("math");
+		s1.unEnroll();
 		
 	
 				
