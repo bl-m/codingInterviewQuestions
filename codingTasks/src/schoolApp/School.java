@@ -34,13 +34,13 @@ public class School {
 		
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter student firstname: ");
-		this.firstName = in.nextLine();
+		firstName = in.nextLine();
 		
 		System.out.print("Enter student lastname: ");
-		this.lastName = in.nextLine();
+		lastName = in.nextLine();
 		
 		System.out.println("Choose 1 - Freshmen, 2 - Junior, 3 - Senior");
-		this.gradeYear = in.nextInt();
+		gradeYear = in.nextInt();
 		
 		id++;
 				
@@ -70,7 +70,7 @@ public class School {
 		
 		System.out.println("Enrolled courses: ");
 		System.out.println(listOfCourses);
-		System.out.println("CUrrent balance: " + tutionBalance);
+		System.out.println("Current balance: " + tutionBalance);
 		
 		return listOfCourses;
 	}
