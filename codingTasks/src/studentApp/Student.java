@@ -12,7 +12,6 @@ public class Student {
 	private int priceOfCourse = 400;
 	private String studentId;
 	private static int id = 500;
-	private String courses = "";
 	private String email;
 	private String domain = "@cybertek.com";
 	private ArrayList<String> listOfCourses = new ArrayList<>(); 
