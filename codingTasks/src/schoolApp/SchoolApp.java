@@ -6,9 +6,11 @@ public class SchoolApp {
 		
 		School s1 = new School();
 		
-		s1.showInfo();
+		s1.enroll();
 		
 		System.out.println("-------------------------");
+		
+		s1.payTution();
 		
 	}
 
