@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author talgatabykeev
- *
- */
-module codingTasks {
-}
