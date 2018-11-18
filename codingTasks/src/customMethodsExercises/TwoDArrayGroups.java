@@ -21,7 +21,6 @@ public class TwoDArrayGroups {
 			for(int j = 0; j < g; j++) {
 				Scanner scan1 = new Scanner(System.in);
 				System.out.println("Please enter group " + (i+1) + " member " +(j+1));
-				String member = scan1.nextLine()
 				
 			}
 		}	

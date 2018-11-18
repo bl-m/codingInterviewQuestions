@@ -1,10 +1,8 @@
 package stringManipulation;
 
-public class PsswordValidator {
+public class PasswordValidator {
 	
 	public static void main(String[] args) {
-		
-		error
-	}
+			}
 
 }
