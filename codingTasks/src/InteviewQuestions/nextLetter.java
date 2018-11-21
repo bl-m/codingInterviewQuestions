@@ -5,24 +5,23 @@ public class nextLetter {
 	public static void main(String[] args) {
 		
 		
-		String string = "hel$#%no";
+		String str = "hello*3";
 		String newString = "";
 		int ascii = 0;
 				
-		for(int i = 0; i < string.length(); i++) {
-			if(Character.isAlphabetic(string.charAt(i))) {
+		for(int i = 0; i < str.length(); i++) {
+			if(Character.isAlphabetic(str.charAt(i))) {
 							
-				ascii = (int)string.charAt(i);
+				ascii = (int)str.charAt(i);
 				
 				newString = newString + "" + (char)(ascii+1); 					
 				}
 			
 			else {
 				
-				newString = newString + "" + string.charAt(i);
+				newString = newString + "" + str.charAt(i);
 			}		
 		}
-		System.out.println(newString);
 		
 		String s = "";
 		int asc;
@@ -33,13 +32,13 @@ public class nextLetter {
 					newString.charAt(i) == 'i' || newString.charAt(i) == 'o' || 
 							newString.charAt(i) == 'u' || newString.charAt(i) == 'A') {
 				
-			asc = (int)string.charAt(i);
+			asc = (int)newString.charAt(i);
 			s = s + "" + (char)(asc - 32); 	
 				
 				
 			}
 			else {
-				s = s + "" + string.charAt(i);
+				s = s + "" + newString.charAt(i);
 			}
 		}
 		
