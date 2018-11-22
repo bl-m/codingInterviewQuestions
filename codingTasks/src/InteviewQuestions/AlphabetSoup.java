@@ -12,10 +12,7 @@ public class AlphabetSoup {
 		int [] arr3 = new int[str.length()];
 		char [] arr4 = new char[str.length()];
 		String finalString = "";
-
-
-
-		
+	
 		for(int i = 0; i < str.length(); i++) {
 			arr2[i] = (char)(str.charAt(i));
 						
