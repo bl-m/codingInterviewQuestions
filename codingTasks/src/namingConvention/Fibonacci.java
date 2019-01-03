@@ -39,10 +39,8 @@ public class Fibonacci {
 			}
 
 			
-			}
+			} 
 		System.out.println(res);
-
 	}
-
 }
 
