@@ -6,7 +6,6 @@ public class PtimeNumberOrNot {
 		
 		isPrime(17);
 		
-		
 	}
 	
 	public static void isPrime(int num) {
