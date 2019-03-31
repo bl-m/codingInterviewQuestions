@@ -9,6 +9,7 @@ public class InsertElementToThePositionOfSpecifcIndex {
 		int arr [] = {2,4,1,4,4,5};
 		
 		insertElement(arr,100,3);
+		System.out.println("New String");
 		
 	}
 	
