@@ -12,6 +12,7 @@ public class SwapNumbers {
 		x = y;
 		y = w;
 		
+		
 		System.out.println(x);
 		System.out.println(y);
 		
@@ -21,8 +22,8 @@ public class SwapNumbers {
 		int b = 3;
 		
 		a = a + b;
-		a = a - b;
 		b = a - b;
+		a = a - b;
 		
 		System.out.println(a);
 		System.out.println(b);

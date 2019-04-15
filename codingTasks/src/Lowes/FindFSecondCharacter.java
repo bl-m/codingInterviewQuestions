@@ -7,6 +7,7 @@ public class FindFSecondCharacter {
 		String s = "This is my Testing Selenium exercises";
 		
 		System.out.println(s.indexOf("s", s.indexOf("s") +1));
+		
 	}
 
 }

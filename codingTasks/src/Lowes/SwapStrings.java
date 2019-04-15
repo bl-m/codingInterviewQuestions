@@ -12,8 +12,6 @@ public class SwapStrings {
 		
 		a = a.concat(b);
 		
-		System.out.println(a);
-		
 		b = a.substring(0, a.length() - b.length());
 		a = a.substring(b.length());
 		

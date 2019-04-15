@@ -9,5 +9,7 @@ public class RemoveSpecialCharacters {
 		s = s.replaceAll("[^a-zA-Z0-9]", "");
 		
 		System.out.println(s);
+		
+	
 	}
 }

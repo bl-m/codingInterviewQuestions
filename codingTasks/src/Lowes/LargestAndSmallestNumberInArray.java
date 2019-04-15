@@ -9,16 +9,17 @@ public class LargestAndSmallestNumberInArray {
 		int smallest = arr[0];
 		
 		for(int i = 0; i < arr.length; i++) {
-			if(arr[i] > largest) {
-				largest = arr[i];
-			}
-			else if(arr[i] < smallest) {
+			if(arr[i] < smallest) {
 				smallest = arr[i];
+			}
+			else if(arr[i] > largest) {
+				largest = arr[i];
 			}
 		}
 		
-		System.out.println("Largest: " + largest);
-		System.out.println("Smallest: " + smallest);
+		System.out.println("Largest number is: " + largest);
+		System.out.println("Smallest number is: " + smallest);
 		
+	
 	}
 }
